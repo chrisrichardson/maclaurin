@@ -1,6 +1,6 @@
 
-import math
 from math import factorial
+
 
 class Maclaurin(object):
 
