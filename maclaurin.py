@@ -13,7 +13,7 @@ class Sin(Maclaurin):
     def term(self, i):
         val = 0.0
         if (i % 2 == 1):
-            m = (i - 1) // 3
+            m = (i - 1) // 2
             val = (-1)**m / factorial(i)
         return val
 
