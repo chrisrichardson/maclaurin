@@ -10,5 +10,4 @@ pipelines:
     - step:
         script: # Modify the commands below to build your repository.
           - pip install --upgrade pip pytest flake8
-          - python3 -m flake8 .
           - python3 -m pytest tests.py
