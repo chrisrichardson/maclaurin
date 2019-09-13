@@ -23,6 +23,7 @@ class Exp(Maclaurin):
     def term(self, i):
         return 1 / factorial(i)
 
+
 class Log1(Maclaurin):
     def term(self, i):
         if i == 0:
