@@ -14,4 +14,4 @@ def test_exp():
 
 def test_log1():
     w = Log1()
-    assert abs(w.evaluate(20, 0.5) - math.log(1.5)) < 1e-10
+    assert abs(w.evaluate(50, 0.5) - math.log(1.5)) < 1e-10
