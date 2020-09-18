@@ -11,4 +11,4 @@ def test_sin():
 
 def test_exp():
     w = Exp()
-    assert numpy.isclose(abs(w.evaluate(20, 0.5) - math.exp(0.5)))
+    assert numpy.isclose(w.evaluate(20, 0.5), math.exp(0.5))
