@@ -21,4 +21,4 @@ class Sin(Maclaurin):
 class Exp(Maclaurin):
 
     def term(self, i):
-       return 1/factorial(i)
+        return 1/factorial(i)
