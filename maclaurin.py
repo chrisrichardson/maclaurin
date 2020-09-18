@@ -18,3 +18,7 @@ class Sin(Maclaurin):
         return val
 
 
+class Exp(Maclaurin):
+
+    def term(self, i):
+       return 1/factorial(i)
