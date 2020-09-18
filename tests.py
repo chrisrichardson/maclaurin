@@ -1,6 +1,7 @@
 
 from maclaurin import Sin, Exp
 import math
+import numpy
 
 
 def test_sin():
@@ -10,4 +11,4 @@ def test_sin():
 
 def test_exp():
     w = Exp()
-    assert abs(w.evaluate(20, 0.5) - math.exp(0.5)) < 1e-10
+    assert numpy.isclose(abs(w.evaluate(20, 0.5) - math.exp(0.5)))
