@@ -18,14 +18,3 @@ class Sin(Maclaurin):
         return val
 
 
-class Exp(Maclaurin):
-
-    def term(self, i):
-        return 1 / factorial(i)
-
-
-class Log1(Maclaurin):
-    def term(self, i):
-        if i == 0:
-            return 0
-        return (-1)**(i + 1) / i
