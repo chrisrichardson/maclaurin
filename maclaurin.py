@@ -16,9 +16,3 @@ class Sin(Maclaurin):
             m = (i - 1) // 2
             val = (-1.0)**m / factorial(i)
         return val
-
-
-class Exp(Maclaurin):
-
-    def term(self, i):
-        return 1.0 / factorial(i)
